@@ -1,0 +1,17 @@
+[package]
+name = "the_bible"
+version = "0.1.0"
+edition = "2021"
+description = "KJV Bible library: reference lookup + full-text search"
+license = "MIT"
+repository = "https://github.com/niccc333/The_Bible"
+keywords = ["bible", "kjv", "search"]
+categories = ["text-processing"]
+
+[dependencies]
+rand = "0.9"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+
+[dev-dependencies]
